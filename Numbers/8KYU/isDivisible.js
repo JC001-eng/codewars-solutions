@@ -5,3 +5,7 @@ function isDivisible(n, x, y) {
 
 isDivisible(3, 3, 4)
 // should return false
+
+module.exports = {
+    isDivisible,
+}

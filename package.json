@@ -1,0 +1,23 @@
+{
+  "name": "webdev-codewars-solutions",
+  "version": "1.0.0",
+  "description": "A repo for storing the GWD codewars solutions 👾",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JC001-eng/codewars-solutions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JC001-eng/codewars-solutions/issues"
+  },
+  "homepage": "https://github.com/JC001-eng/codewars-solutions#readme",
+  "dependencies": {
+    "jest": "^27.5.1"
+  }
+}
