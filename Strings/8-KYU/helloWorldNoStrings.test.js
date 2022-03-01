@@ -1,4 +1,4 @@
-import { helloWorld } from './helloWorldNoStrings';
+const { helloWorld } = require('./helloWorldNoStrings');
 
 test('should output hello world', () => {
   const result = helloWorld();
