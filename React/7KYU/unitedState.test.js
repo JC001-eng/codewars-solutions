@@ -4,7 +4,9 @@ import Adapter from "enzyme-adapter-react-16";
 import Enzyme, { shallow } from "enzyme";
 Enzyme.configure({ adapter: new Adapter() });
 
-import { States } from "./solution";
+import { States } from './unitedState';
+
+// import { States } from "./solution";
 
 describe('Default State', () => {
   const wrapper = shallow(<States />);
