@@ -18,3 +18,7 @@ describe('Remainder Function', () => {
   });
 });
 */
+
+module.exports = {
+  remainder,
+}
