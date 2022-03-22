@@ -1,0 +1,65 @@
+Arguments: 
+  /Users/justin/.nvm/versions/node/v14.2.0/bin/node /usr/local/Cellar/yarn/1.22.4/libexec/bin/yarn.js add jest-environment-enzyme jest-enzyme enzyme-adapter-react-* --dev
+
+PATH: 
+  /Users/justin/.nvm/versions/node/v14.2.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/justin/.nvm/versions/node/v14.2.0/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  14.2.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/enzyme-adapter-react-*: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:66987:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:140748:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:141720:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:141642:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (_stream_readable.js:1225:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "webdev-codewars-solutions",
+    "version": "1.0.0",
+    "description": "A repo for storing the GWD codewars solutions 👾",
+    "main": "index.js",
+    "scripts": {
+      "test": "jest"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/JC001-eng/codewars-solutions.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/JC001-eng/codewars-solutions/issues"
+    },
+    "homepage": "https://github.com/JC001-eng/codewars-solutions#readme",
+    "dependencies": {
+      "react": "^17.0.2"
+    },
+    "devDependencies": {
+      "@babel/preset-env": "^7.16.11",
+      "@babel/preset-react": "^7.16.7",
+      "enzyme": "^3.11.0",
+      "enzyme-adapter-react-16": "^1.15.6",
+      "jest": "^27.5.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
